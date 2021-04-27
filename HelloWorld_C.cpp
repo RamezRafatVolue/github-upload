@@ -7,12 +7,12 @@ using namespace std;
 int main()
 {
     //Forsøk på looping
-    for (int i = 0; i < 6000; i++) {
+    for (int i = 0; i < 2000; i++) {
         cout << i << " ";
     }
 
     double summen = 0;
-    for (int x = 0; x < 500000000; x++) {
+    for (int x = 0; x < 400000000; x++) {
         summen = ((summen + x)/2);
     }
 
@@ -21,7 +21,7 @@ int main()
     cout << "Hello World!\n\n";
     cout << "Ramez is testing DevOps against GIT!\n";
 
-    int myAge = 53 * 2;
+    int myAge = 53 * 10;
     cout << "I am " << myAge << " years old.";
 
     int x = 5;
